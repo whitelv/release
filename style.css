@@ -1,1 +1,198 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-color: #2a6657;
+    padding: 20px;
+    text-align: center;
+}
+
+#a1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+nav a {
+    margin-right: 30px;
+    margin-left: 30px;
+    display: block;
+    width: 2000px;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    text-decoration: none;
+    color: #2a6657;
+    background-color: #ffffff;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background-color: #E6E6E6;    
+    border: 2px solid #e6e6e6;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 100px;
+}
+
+h1::after{
+    content: url(https://learn.logikaschool.com/uploads/student/3122663/676fe9850f797.png);
+    position: relative;
+    top: 7px;
+}
+
+main img {
+    width: 50%;
+}
+
+h2 {
+    background-color: #2a6657;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+.a3 {
+    background-color:#ffffff;
+    padding-bottom: 50px;
+}
+
+#a1 {
+    background-color: black;
+}
+
+.text{
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+    margin-bottom: 50px;
+    font-size: 150%;
+    padding: 5px;
+    border: 5px solid #b8860b;
+    border-radius: 10px;
+    background-color: #2a6657;
+}
+
+#a1 h3 {
+    width: 700px;
+    font-size: 130%;
+    margin-bottom: 70px;
+    margin-inline: auto;
+}
+.map{
+    margin-inline: auto;
+}
+
+main h3, h4{
+    padding-bottom: 20px;
+}
+
+#a3 {
+    font-size: 130%;
+    background-image: linear-gradient(#b8860b, black 30%);
+}
+
+#a3 h4 {
+    text-align: center;
+    width: 700px;
+    margin-inline: auto;
+}
+
+#a3 ul, #a3 h3 {
+    text-align: center;
+}
+
+#a3 ul {
+    padding-bottom: 30px;
+    line-height: 2;
+}
+
+li {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+footer h2 {
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #2a6657;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+.flex1{
+    display:flex;
+}
+
+button:first-child{
+    border: 3px solid #b8860b;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #2a6657;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+button:last-child{
+    border: 3px solid #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #b8860b;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+button:first-child:hover{
+    border: 3px solid #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #b8860b;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+button:last-child:hover{
+    border: 3px solid #b8860b;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #2a6657;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
