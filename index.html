@@ -1,14 +1,213 @@
 <html>
     <head>
         <title>DreamNest</title>
-        <link rel="stylesheet" href="style.css">
+        <style>
+		    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-color: #2a6657;
+    padding: 20px;
+    text-align: center;
+}
+
+#a1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+nav a {
+    margin-right: 30px;
+    margin-left: 30px;
+    display: block;
+    width: 2000px;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    text-decoration: none;
+    color: #2a6657;
+    background-color: #ffffff;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background-color: #E6E6E6;    
+    border: 2px solid #e6e6e6;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 100px;
+}
+
+h1::after{
+    content: url(https://learn.logikaschool.com/uploads/student/3122663/676fe9850f797.png);
+    position: relative;
+    top: 7px;
+}
+
+main img {
+    width: 50%;
+}
+
+h2 {
+    background-color: #2a6657;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+.a3 {
+    background-color:#ffffff;
+    padding-bottom: 50px;
+}
+
+#a1 {
+    background-color: black;
+}
+
+.text{
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+    margin-bottom: 50px;
+    font-size: 150%;
+    padding: 5px;
+    border: 5px solid #b8860b;
+    border-radius: 10px;
+    background-color: #2a6657;
+}
+
+#a1 h3 {
+    width: 700px;
+    font-size: 130%;
+    margin-bottom: 70px;
+    margin-inline: auto;
+}
+.map{
+    margin-inline: auto;
+}
+
+main h3, h4{
+    padding-bottom: 20px;
+}
+
+#a3 {
+    font-size: 130%;
+    background-image: linear-gradient(#b8860b, black 30%);
+}
+
+#a3 h4 {
+    text-align: center;
+    width: 700px;
+    margin-inline: auto;
+}
+
+#a3 ul, #a3 h3 {
+    text-align: center;
+}
+
+#a3 ul {
+    padding-bottom: 30px;
+    line-height: 2;
+}
+
+li {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+footer h2 {
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #2a6657;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+.flex1{
+    display:flex;
+}
+
+button:first-child{
+    border: 3px solid #b8860b;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #2a6657;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+button:last-child{
+    border: 3px solid #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #b8860b;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+button:first-child:hover{
+    border: 3px solid #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #b8860b;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+button:last-child:hover{
+    border: 3px solid #b8860b;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #2a6657;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+	    </style>
     </head>
     <body>
         <header>
             <nav>
-                <a href="">Переглянути будинки</a>
-                <a href="">Зв'язатися  нами</a>
-                <a href="">Про нас</a>
+                <a href="#a2">Переглянути будинки</a>
+                <a href="#a4">Зв'язатися  нами</a>
+                <a href="#a3">Про нас</a>
             </nav>
         </header>
         <main>
@@ -16,45 +215,79 @@
             <h1>DreamNest</h1>
             <h3>Пропунуємо найкращі варіанти будинків для життя ябо інвестицій. Оберайте серед сучасник котеджів, затишних заміських будинкіа чи розкішних вілл. ваш дім чекає на вас</h3>
             </section>
-            </section id="a2">
-            <section>
+            <section class="a3" id="a2">
             <h2>Каталог будинків</h2>
-            <article>
+            <article class="flex">
                 <img src="https://learn.logikaschool.com/uploads/student/3122663/6766b2c7b82ea.jpg">
+                <article class="text">
                 <h3>Назва:“Sunny Cottage”</h3>
                 <h4>Ціна:$120,000</h4>
                 <h4>Опис:Затишний одноповерховий будинок у передмісті, ідеальний для сімейного відпочинку. Має 3 спальні, простору вітальню, кухню та ванну кімнату. Ділянка на 6 соток із невеликим садом та альтанкою. Розташований у тихому районі, неподалік від школи та магазину.</h4>
+                    <div class="flex1">
+                        <button>Дізнатися більше</button>
+                        <button>Купити</button>
+                    </div> 
+                </article>
             </article>
-            <article>
-                <img src="https://learn.logikaschool.com/uploads/student/3122663/676fdd269c9a0.jpg">
+            <article class="flex">
+                <img src="https://learn.logikaschool.com/uploads/student/3122663/676fe2496ee4e.jpg">
+                <article class="text">
                 <h3>Назва:“Modern Comfort Villa”</h3>
                 <h4>Ціна:$280,000</h4>
                 <h4>Опис:Сучасна вілла преміум-класу, розташована в елітному районі міста. Будинок площею 280 кв. м має 4 спальні, 3 ванні кімнати, велику кухню-студію, басейн та терасу з панорамним видом. Виконаний у стилі хай-тек із якісних матеріалів.</h4>
+                    <div class="flex1">
+                        <button>Дізнатися більше</button>
+                        <button>Купити</button>
+                    </div>
+                </article>
             </article>            
-            <article>
+            <article class="flex">
                 <img src="https://learn.logikaschool.com/uploads/student/3122663/676fddb5b5389.jpg">
+                <article class="text">
                 <h3>Назва:“Green Haven”</h3>
                 <h4>Ціна:$200,000</h4>
                 <h4>Опис:Двоповерховий будинок площею 150 кв. м, розташований у мальовничій сільській місцевості. Має 3 спальні, простору вітальню з каміном, кухню та велику терасу. Ділянка 10 соток із садом, городом та теплицею. Чудовий вибір для тих, хто цінує природу та спокій.</h4>
+                    <div class="flex1">
+                        <button>Дізнатися більше</button>
+                        <button>Купити</button>
+                    </div>
+                </article>
             </article>
-            <article>
+            <article class="flex">
                 <img src="https://learn.logikaschool.com/uploads/student/3122663/676fddf5521b7.jpg">
+                <article class="text">
                 <h3>Назва:“Skyline Residence”</h3>
                 <h4>Ціна:$320,000</h4>
-                <h4>Опис:Елегантний міський будинок із сучасним дизайном. Площа 220 кв. м, 4 спальні, 2 ванні кімнати, гардеробна, великий гараж і балкон із видом на місто. У будинку виконаний дизайнерський ремонт у стилі мінімалізм. Розташований поблизу парку та торгового центру.
-</h4>
+                <h4>Опис:Елегантний міський будинок із сучасним дизайном. Площа 220 кв. м, 4 спальні, 2 ванні кімнати, гардеробна, великий гараж і балкон із видом на місто. У будинку виконаний дизайнерський ремонт у стилі мінімалізм. Розташований поблизу парку та торгового центру.</h4>
+                    <div class="flex1">
+                        <button>Дізнатися більше</button>
+                        <button>Купити</button>
+                    </div>
+                </article>
             </article>
-            <article>
+            <article class="flex">
                 <img src="https://learn.logikaschool.com/uploads/student/3122663/676fdea7b0af4.jpg">
+                <article class="text">
                 <h3>Назва:“Cozy Family Nest”</h3>
                 <h4>Ціна:$160,000</h4>
                 <h4>Опис:Теплий сімейний будинок у передмісті. Площа 130 кв. м, 3 спальні, кухня, ванна кімната, велика вітальня. Ділянка 8 соток із дитячим майданчиком і зоною для барбекю. Усього 20 хвилин їзди до міста.</h4>
+                    <div class="flex1">
+                        <button>Дізнатися більше</button>
+                        <button>Купити</button>
+                    </div>
+                </article>
             </article>
-            <article>
+            <article class="flex">
                 <img src="https://learn.logikaschool.com/uploads/student/3122663/676fdee1f1e95.jpg">
+                <article class="text">
                 <h3>Назва:“Lakeside Retreat”</h3>
                 <h4>Ціна:$450,000</h4>
                 <h4>Опис:Будинок біля озера, ідеальний для відпочинку або постійного проживання. Площа 180 кв. м, 3 спальні, кухня, простора вітальня з великими вікнами та каміном. Ділянка 12 соток, є власний причал і місце для риболовлі. Знаходиться за 10 хвилин ходьби до лісу.</h4>
+                    <div class="flex1">
+                        <button>Дізнатися більше</button>
+                        <button>Купити</button>
+                    </div>
+                </article>
             </article>
             </section>
             <section id="a3">
@@ -68,14 +301,13 @@
                 </ul>
             </section>
         </main>
-        <footer>
+        <footer id="a4">
             <h2>Котактна інформація</h2>
+            <div>
             <h3>Номер телефону:+1 234 567 890</h3>
             <h3>Email:DreamNest3452@gmail.com</h3>
             <h3>Адреса:Берковецька, 6д, киЇв</h3>
-            <img src="https://learn.logikaschool.com/uploads/student/4836094/6766a802bce91.png">
-            <img class="marker-img" src="/uploads/2021/03/map-42871_1280_0_1615578112.png" width="50px"/>
-            <div>Ми тут</div>
+            </div>
         </footer>
     </body>
 </html>
